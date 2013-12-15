@@ -1,0 +1,13 @@
+module.exports={
+	cookieSecret:'notice',
+	db:'notice',
+	host:'localhost',
+	hash_key:'admin',
+	remote:{
+		login_path:'http://cy.com/admin/account/login',
+		send_notice_path:'http://cy.com/admin/tools/send_notice_crontab',
+		username:'userbak',
+		password:'user*^@12!bak',
+		send_notice_key:'test',
+	}
+};
